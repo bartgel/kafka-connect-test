@@ -1,0 +1,15 @@
+{
+  "name": "MqttSourceConnector_0",
+  "config": {
+    "connector.class": "MqttSource",
+    "name": "MqttSourceConnector_0",
+    "kafka.auth.mode": "KAFKA_API_KEY",
+    "kafka.api.key": "BUBCMQRAJG7ULKNB",
+    "kafka.api.secret": "ymFB8jt5DzdTC8GhTaQn+N4p3v3Latct6FMEb+VnMvXVUh6oPTafm8IoX3qxRZ1h",
+    "kafka.topic": "vehicle",
+    "mqtt.server.uri": "tcp://mqtt.hsl.fi:1883",
+    "mqtt.topics": "/hfp/v2/journey/ongoing/vp/train/#",
+    "mqtt.qos": "0",
+    "tasks.max": "1"
+  }
+}
